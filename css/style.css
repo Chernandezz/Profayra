@@ -64,6 +64,12 @@ section {
   padding: 2rem;
 }
 
+.flex-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .heading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 7rem;
@@ -169,6 +175,17 @@ section {
   font-size: 2.5rem;
   color: var(--white);
   text-align: center;
+}
+
+.social {
+  display: flex;
+  gap: 4rem;
+  transform: translate(0px, -7rem);
+}
+
+.social a i {
+  color: white;
+  font-size: 2rem;
 }
 
 /* media queries  */
