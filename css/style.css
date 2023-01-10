@@ -360,6 +360,8 @@ template {
   --white: #fff;
   --black: #0c0215;
   --light-purple: #9945c7;
+  --surface-color: #fff;
+  --curve: 40;
 }
 
 .disabled-link {
